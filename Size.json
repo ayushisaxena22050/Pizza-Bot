@@ -1,0 +1,40 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "bolder",
+      "text": "What size of Pizza do you prefer?"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "Size",
+      "style": "expanded",
+      "isMultiSelect": false,
+      "value": "1",
+      "choices": [
+        {
+          "title": "Small",
+          "value": "Small"
+        },
+        {
+          "title": "Medium",
+          "value": "Medium"
+        },
+        {
+          "title": "Large",
+          "value": "Large"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "OK"
+    }
+  ]
+}

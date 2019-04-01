@@ -1,0 +1,95 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "medium",
+            "weight": "bolder",
+            "text": "What toppings do you prefer?"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "items": [{
+                    "type": "Image",
+                    "url": "https://mrchenstogo.com/wp-content/uploads/2017/01/Coke_12oz.jpg"
+                },
+                  
+                  {
+                      "type": "Input.Toggle",
+                      "id": "Coke",
+                      "title": "Coke",
+                      "value": "true",
+                      "valueOn": "true",
+                      "valueOff": "false"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "items": [
+                    {
+                        "type":"Image",
+                        "url":"https://thumbor.thedailymeal.com/TDW5UzJ0MyBMpM6uWMgvN0fJdNg=/840x565/filters:focal(1504x1000:1505x1001):format(webp)/https://www.thedailymeal.com/sites/default/files/recipe/2018/iStock-687999118_1_.jpg"
+                    },
+                  {
+                      "type": "Input.Toggle",
+                      "id": "French Fries",
+                      "title": "French Fries",
+                      "value": "true",
+                      "valueOn": "true",
+                      "valueOff": "false"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "items": [
+                    {
+                        "type":"Image",
+                        "url":"https://media.monin.com/us/media/catalog/product/cache/1/image/467x/f621af378aee1eddd682be5560dd0242/C/a/Caramel_Iced_Coffee-1534124695-0.png"
+                    },
+                  {
+                      "type": "Input.Toggle",
+                      "id": "Cold-Coffee",
+                      "title": "Cold-Coffee",
+                      "value": "true",
+                      "valueOn": "true",
+                      "valueOff": "false"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "items": [
+                    {
+                        "type":"Image",
+                        "url":"https://www.recipefy.com/media/W1siZiIsIjIwMTQvMTEvMjUvMTVfNDRfNDRfMzM2XzMxNzU1NzczMzhfY2hvY29fbGF2YV9jYWtlX2pwZ18uanBnIl0sWyJwIiwiYXV0b19vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjEwMDB4MjAwMD4iXSxbImUiLCJqcGciXV0/3175577338_choco-lava-cake-jpg%7D.jpg"
+                    },
+                  {
+                      "type": "Input.Toggle",
+                      "id": "Choco Lava Cake",
+                      "title": "Choco Lava Cake",
+                      "value": "true",
+                      "valueOn": "true",
+                      "valueOff": "false"
+                  }
+                ]
+              }
+       
+            ],
+            "style": "expanded"
+            
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "OK"
+        }
+      ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Pizza",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "e72008f0-4574-11e9-931a-8fe2bb10e620",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "/home/ayushi/Desktop/PizzaBot/Pizza.bot"
+}

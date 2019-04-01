@@ -1,0 +1,64 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "medium",
+            "weight": "bolder",
+            "text": "What size of Pizza do you prefer?"
+        },
+      {
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "items": [
+              
+              {
+                  "type": "Input.Toggle",
+                  "id": "Small",
+                  "title": "Small",
+                  "value": "true",
+                  "valueOn": "true",
+                  "valueOff": "false"
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "items": [
+              {
+                  "type": "Input.Toggle",
+                  "id": "Medium",
+                  "title": "Medium",
+                  "value": "true",
+                  "valueOn": "true",
+                  "valueOff": "false"
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "items": [
+              {
+                  "type": "Input.Toggle",
+                  "id": "Large",
+                  "title": "Large",
+                  "value": "true",
+                  "valueOn": "true",
+                  "valueOff": "false"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "OK"
+      }
+    ]
+  }
